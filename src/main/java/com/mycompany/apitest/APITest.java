@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 /**
  * This class fetches random dog image information from 'The Dog API'.
- * @author ajasp
+ * @author Alex Jasper
  */
 public class APITest { 
     public static void main(String[] args) throws Exception {
