@@ -35,6 +35,7 @@ public class APITest {
         Scanner scanner = new Scanner(responseStream).useDelimiter("\\A");  // "\\A" matches the beginning of the input, effectively reading the whole stream
 
         return scanner.hasNext() ? scanner.next() : "";
+
     }
 
     /**
